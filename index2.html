@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang ="ko">
+
+<head>
+	<meta charset="utf-8">
+	<link href="stylesheet/style.css" rel="stylesheet" type="text/css"> 
+	<title> Quiz </title>
+</head>
+
+
+
+<body>
+
+	
+		
+
+	<div id="wrap">
+		<div id="top">
+			<div id="top_left">
+				KSS COMMUNICATION
+			</div>
+		<div id="top_right">
+						<table>
+					<tr>
+						<th> ID </th> 
+						<td> <input type="text"> </td>
+					</tr>
+					<tr>
+						<th> PASSWORD </th>
+						<td> <input type="text"> </td>
+					</tr>
+					<tr>
+						<td colspan="2" >
+					<a href="">회원가입</a> <a href=""> 로그인 </a>
+					</td>
+					</tr>
+			</table>
+		</div>
+	</div>
+	
+
+	
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">MAIN</a></li>
+				<li><a href="index1.html">INTRO</a></li>
+				<li><a href="index2.html">QUIZ</a></li>
+				<li><a href="index3.html">정답보기</a></li>
+			</ul>
+		</div>
+			<div id="body">
+		<br>
+	<h1>QUIZ</h1>
+	소정의 상품을 드립니다.
+
+	<form action ="#"  method = "post">
+		
+		<table border = "1">
+
+			<tr>
+			<th> 성별 </th>
+			<td colspan = "1">  <input type="radio" name = "sex" value="m"> 남 
+								<input type="radio" name = "sex" value="f"> 여 </td>
+			</tr>
+
+			<tr>
+			<th> 나이 </th>
+			<td colspan = "1"> <select name = "age" size = "1" >
+								<option value = "10-">10대초반</option>
+								<option value = "10+">10대후반</option>
+								<option value = "20-">20대초반</option>
+								<option value = "20+">20대후반</option>
+								<option value = "30+">30대이상</option>
+			</select></td>
+			</tr>
+
+			<tr>
+			<th> 키 </th>
+			<td colspan = "1"> <input type="radio" name = "tall" value="160+"> 160후반			
+							   <input type="radio" name = "tall" value="170-"> 170초반
+							   <input type="radio" name = "tall" value="170+"> 170후반<br/>
+							   <input type="radio" name = "tall" value="180-"> 180초반
+						       <input type="radio" name = "tall" value="180+"> 180후반
+								   
+			</td>
+			</tr>
+
+			
+
+			<tr>
+			<th> 혈액형 </th>
+			<td colspan = "1"> <select name = 'blood' size = "1" >
+								<option value = "A">A</option>
+								<option value = "B">B</option>
+								<option value = "O">O</option>
+								<option value = "AB">AB</option>
+			</select> </td>
+			</tr>
+
+		
+			<tr>
+				<th>성격</th>
+				<td colspan = "1"> <input type = "checkbox" name = "personality" value = "active" > 적극적
+					<input type = "checkbox" name = "personality" value = "shy" > 소극적 
+					<input type = "checkbox" name = "personality" value = "changing" > 사람따라 다른
+					<br/>
+					<input type = "checkbox" name = "personality" value = "and so on" > 기타
+					<input type="text"> </td>
+			</tr>	
+
+			<tr>
+			<th> 학력 </th>
+			<td colspan = "1"> <input type="radio" name = "grade" value="e"> 초졸											
+				               <input type="radio" name = "grade" value="m"> 중졸
+							   <input type="radio" name = "grade" value="h"> 고졸
+							   <input type="radio" name = "grade" value="u"> 대졸
+							   </td>
+			</tr>
+		
+
+			<tr>
+				<th>취미</th>
+				<td colspan = "1">
+				    <input type = "checkbox" name = "hobby" value = "pingpong" > 탁구
+					<input type = "checkbox" name = "hobby" value = "jogging" > 조깅 
+					<input type = "checkbox" name = "hobby" value = "game" > 게임
+					<input type = "checkbox" name = "hobby" value = "golf" > 골프
+				<br/>
+
+					<input type = "checkbox" name = "hobby" value = "and so on" > 기타
+					<input type="text"> </td>
+			</tr>	
+
+
+			<tr>
+				<th> 하고 싶은말</th>
+				<td><textarea cols = "30" rows = "5" name = "etc"></textarea> </td> 
+
+			</tr>
+
+		</table>
+
+		<input type = "submit" value = " 정답 보내기"><br/>
+
+	</form>
+	
+	</div>
+	
+	
+	<div id="footer">
+		<h3>Copyright ⓒ KSS Communication, All rights reserved <br>
+		서비스 약관 : 개인정보 취급방침, 보안센터,저작권 확인</h3>
+	</div>
+</div>
+</body>
+</html>
+
+
